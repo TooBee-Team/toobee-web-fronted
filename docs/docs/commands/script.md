@@ -129,13 +129,13 @@ me 我（$0）要开始执行这个脚本了
 
 /player {
     $1 {
-        spawn at 11 22 33
+        spawn at 11 22 33 facing 45.0 135.0 in minecraft:overworld
         @wait 1s
         tag "攻击"
         attack continuous
     }
     $2 {
-        spawn at -1 -2 -3
+        spawn at -1 -2 -3 facing -45.0 -135.0 in minecraft:overworld
         @wait 1s
         tag "使用"
         use interval 10

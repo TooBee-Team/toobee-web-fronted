@@ -10,6 +10,7 @@ export default defineConfig({
   head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/toobee.svg' }]],
   lang: 'zh-CN',
   cleanUrls: true,
+  appearance: 'dark',
 
   themeConfig: {
     logo: { src: '/toobee.svg', width: 24, height: 24 },
@@ -35,6 +36,7 @@ export default defineConfig({
           text: '命令帮助',
           items: [
             { text: '索引', link: '/docs/commands/index'},
+            { text: '玩家操控', link: '/docs/commands/player'},
             { text: '登录', link: '/docs/commands/easyauth'},
             { text: '命令脚本', link: '/docs/commands/script'}
           ]
@@ -66,6 +68,9 @@ export default defineConfig({
     footer: {
       message: 'Email: jkfungus@yandex.com',
       copyright: 'Copyright © 2025-present Fungus'
-    }
+    },
+
+    lightModeSwitchTitle: '切换至浅色背景',
+    darkModeSwitchLabel: '切换至深色背景'
   }
 })

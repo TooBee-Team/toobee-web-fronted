@@ -41,7 +41,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: '/craftbukkit.jpg',
+    avatar: '/craftbukkit.webp',
     name: '好人菌 (CraftBukkit)',
     title: '好人服领袖',
     links: [
@@ -49,7 +49,7 @@ const members = [
     ]
   },
   {
-    avatar: '/fungus.jpg',
+    avatar: '/fungus.webp',
     name: '菌 (Fungus)',
     title: '服主',
     links: [
@@ -58,7 +58,7 @@ const members = [
     ]
   },
   {
-    avatar: '/ap2000_.jpg',
+    avatar: '/ap2000_.webp',
     name: '鹏 (ap2000_)',
     title: '服务商',
     links: [
