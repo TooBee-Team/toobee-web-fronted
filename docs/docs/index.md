@@ -15,7 +15,7 @@ next:
 
 - **推荐** 加入QQ群 *786296062*，将群名改为游戏名并通知管理员
 - 添加服主微信 *jkfungus*，服主把你拉进群里然后把群名改为游戏名
-- 加入[*Discord服务器*](https://discord.com/invite/sak3mE6)
+- 加入[*Discord服务器*](https://discord.gg/YcJVpVKe8q)
 - 加入[*Telegram群聊*](https://t.me/mc2ob)
 - 给 jkfungus@yandex.com 发送邮件，说明你的用户名，获得白名单后你将受到回复邮件
 
