@@ -24,7 +24,7 @@ next: false
 - `tag <标签>`
 
 ::: info 参数
-- `[标签]` [string](https://zh.minecraft.wiki/w/%E5%8F%82%E6%95%B0%E7%B1%BB%E5%9E%8B#brigadier:string) 指定标签内容，空字符串用来取消标签。注意无空格的纯英文或数字内容无需加引号，而一旦含有中文或空格则必须加英文引号。
+- `[标签]` [[string](https://zh.minecraft.wiki/w/%E5%8F%82%E6%95%B0%E7%B1%BB%E5%9E%8B#brigadier:string)] 指定标签内容，空字符串用来取消标签。注意无空格的纯英文或数字内容无需加引号，而一旦含有中文或空格则必须加英文引号。
 :::
 
 **例子**
@@ -135,7 +135,7 @@ next: false
 ## `jump` 跳跃 {#jump}
 参数见[动作类参数](#action_argument)。
 
-## `swapHands` 主副手交换
+## `swapHands` 主副手交换 {#swapHands}
 
 参数见[动作类参数](#action_argument)。
 
@@ -158,7 +158,7 @@ next: false
 
 语法和参数类似 [`drop`](#drop)，只不过是一次性丢掉整个槽位的物品。
 
-## `mount` 乘骑
+## `mount` 乘骑 {#mount}
 乘骑附近最近的一个实体。
 
 - `mount`
@@ -168,7 +168,7 @@ next: false
 - `anything` (可选) 表示试图乘骑一切实体，无此参数则只乘骑可乘骑的实体，比如船、矿车、马、骆驼等。
 :::
 
-## `dismount` 取消乘骑
+## `dismount` 取消乘骑 {#dismount}
 
-## `shadow` 投影
+## `shadow` 投影 {#shadow}
 根据指定的玩家名召唤对应的假人，并继续执行他当前的操作。然而由于本服的假人是固定的，假人名严格区分于真玩家，这个命令在本服并没有什么卵用。

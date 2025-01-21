@@ -27,7 +27,7 @@ next: false
 地毯命令的[英文官方文档](https://github.com/gnembon/fabric-carpet/wiki/Commands)
 - `/distance <坐标> <坐标>` 给出两点之间的直线、圆柱和曼哈顿距离
 - `/log <项目>` 订阅服务器信息日志，用法详见 [Carpet 官方文档](https://github.com/HeartyYF/fabric-carpet-Wiki-CN/wiki/Commands#%E7%94%A8%E6%B3%95log)
-- `/player <玩家名> [动作]` 使用假人，具体用法见[此视频](https://www.bilibili.com/video/BV1zt4y1T7Co)
+- `/player <玩家名> [动作]` 操控玩家与假人，具体用法见[玩家操控](player)
 - `/player tag <标签>` 这是本服独有命令，给假人加注释，玩家列表能够看到，空标签取消注释
 - `/profile entities|health [游戏刻]` 监测服务器运算分配，entities显示每种实体数量与每刻的运算时间，health显示各项目每刻的运算时间；游戏刻指定监测从开始到结束的时间，默认100
 
