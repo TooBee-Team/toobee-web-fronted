@@ -55,10 +55,12 @@ next:
 - **服务器位置:** 广东深圳
 - **CPU:** Intel i9-14900K (8核)
 - **服务端内存:** 8 GiB
-- **运行系统:** Linux 6.1.0-28-amd64 (Debian 12)
+- **运行系统:** Linux 6.1.0-30-amd64 (Debian 12)
 
 ## 关于
 - 该网站由 [VitePress](https://vitepress.dev/) 框架搭建
+- MCMOD 上的[宣传页面](https://play.mcmod.cn/sv20187558.html)，去给一个点赞和收藏吧
+- Minebbs 上的[宣传页面](https://www.minebbs.com/threads/1-21-4-toobee.31253/)
 
 ### 致谢
 - 感 谢 我 自 己，QQ: 761324309
