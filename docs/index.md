@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-lastUpdated: 2025-01-18T01:12:49+08:00
+lastUpdated: 2025-01-31T01:12:49+08:00
 
 hero:
   name: "好人服・诺金 (TooBee)"
@@ -37,6 +37,8 @@ features:
 ---
 
 <script setup>
+import BasicData from './components/BasicData.vue'
+
 import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
@@ -68,8 +70,8 @@ const members = [
 ]
 </script>
 
-<br />
+<BasicData />
 
-<p style="text-align:center; line-height: 2.0;"><font size="14"><b>运 维 团 队</b></font></p>
+<h2 style="text-align:center; line-height:2.0; font-size:250%;"><b>运 维 团 队</b></h2>
 
 <VPTeamMembers size="small" :members="members" />

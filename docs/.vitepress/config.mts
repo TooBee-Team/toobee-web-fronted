@@ -1,8 +1,36 @@
 import { defineConfig } from 'vitepress'
+import vuetify from 'vite-plugin-vuetify'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   //base: "/base/",
+  /*vite: {
+    server: {
+      proxy: {
+        '/api': {
+          target: 'http://localhost:8080',
+          changeOrigin: true,
+          secure: false,
+          rewrite: (path) => path
+        }
+      }
+    }
+  },
+  */
+  vite: {
+    plugins: [
+      vuetify({ autoImport: true }),
+    ],
+    ssr: {
+      noExternal: ['vuetify']
+    },
+    css: {
+      preprocessorOptions: {
+        scss: {}
+      }
+    }
+  },
+
   lastUpdated: true,
 
   title: "TooBee",
