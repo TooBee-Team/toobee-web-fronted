@@ -58,6 +58,7 @@ export default defineConfig({
             { text: '基本规则', link: '/docs/rules' },
             { text: '游戏特性', link: '/docs/features' },
             { text: '积分规则', link: '/docs/points' },
+            { text: '独有进度', link: '/docs/advancements' },
           ]
         },
         {

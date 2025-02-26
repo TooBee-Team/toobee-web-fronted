@@ -90,7 +90,7 @@
 
 <script>
 import axios from 'axios'
-const newUrl = 'api/basic'
+const newUrl = '/api/basic'
 const fixUrl = newUrl.concat('?fix=true')
 
 export default {

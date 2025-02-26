@@ -43,7 +43,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: '/craftbukkit.webp',
+    avatar: '/team/craftbukkit.webp',
     name: '好人菌 (CraftBukkit)',
     title: '好人服领袖',
     links: [
@@ -51,18 +51,43 @@ const members = [
     ]
   },
   {
-    avatar: '/fungus.webp',
+    avatar: '/team/fungus.webp',
     name: '菌 (Fungus)',
-    title: '服主',
+    title: '服主、主要开发者',
     links: [
       { icon: 'github', link: 'https://github.com/Fungus-00' },
       { icon: 'qq', link: '/docs/#致谢' }
     ]
   },
   {
-    avatar: '/ap2000_.webp',
+    avatar: '/team/ap2000_.webp',
     name: '鹏 (ap2000_)',
     title: '服务商',
+    links: [
+      { icon: 'qq', link: '/docs/#致谢' }
+    ]
+  },
+  {
+    avatar: '/team/techxun.webp',
+    name: 'techxun',
+    title: '生电管理员',
+    links: [
+      { icon: 'qq', link: '/docs/#致谢' }
+    ]
+  },
+  {
+    avatar: '/team/anom.webp',
+    name: 'Anom',
+    title: '辅助开发者',
+    links: [
+      { icon: 'github', link: 'https://github.com/Anom71' },
+      { icon: 'qq', link: '/docs/#致谢' }
+    ]
+  },
+  {
+    avatar: '/team/QM_Binyu.webp',
+    name: '秋漠・滨语 (QM_Binyu)',
+    title: '综合管理员',
     links: [
       { icon: 'qq', link: '/docs/#致谢' }
     ]
@@ -74,4 +99,4 @@ const members = [
 
 <h2 style="text-align:center; line-height:2.0; font-size:250%;"><b>运 维 团 队</b></h2>
 
-<VPTeamMembers size="small" :members="members" />
+<VPTeamMembers size="medium" :members="members" />
