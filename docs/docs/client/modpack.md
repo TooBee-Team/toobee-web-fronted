@@ -4,15 +4,16 @@ outline: deep
 
 # 整合包通用信息
 
-TooBee 服专用整合包，不是进服必须的，但推荐使用。请通过 [Modrinth](https://modrinth.com/modpack/toobee-client) 下载。本文由整合包文件内的 `README.md` 整理而来
+TooBee 服专用整合包，不是进服必须的，但推荐有一定经验的玩家使用，不推荐纯小白使用。请通过 [Modrinth](https://modrinth.com/modpack/toobee-client) 下载。本文只针对最新版整合包，请检查你的整合包版本是否为最新版，如果否请重新下载最新版。
 
-当前版本：1.21.4
+游戏版本：1.21.4
+子版本: 3
 
 ![在冰上](/modpack_show.png)
 
-## 介绍
+## 介绍 {#introduction}
 
-### 基本信息
+### 基本信息 {#basic_info}
 
 该整合包是为 TooBee 生存服务器提供的客户端整合包，但也可用于其它生存服。其注重于性能优化、功能辅助和体验增强，你可以自由地在其基础之上增加、删减或更新模组以满足额外需求，不过不保证兼容性。适用于包括生电和建筑玩家在内的绝大部分玩家，并提供了一些可选模组。其包含了许多最新发布、甚至未发布的模组（作者手动更新构建了个别未更新的模组）。
 
@@ -22,7 +23,7 @@ TooBee 服专用整合包，不是进服必须的，但推荐使用。请通过 
 
 囿于作者时间精力有限，整合包还有很多细节有待完善，后续再补充。你有任何想法或建议、或发现任何bug请联系作者，不过不一定有时间及时解决，因为作者在MC方面上的主业是服主以及开发服务端模组（本身的学业压力就很大）。
 
-### 主要内容说明
+### 主要内容说明 {#contents}
 
 整合包适配了TooBee服务器的服务端模组，理论上在其他生存服务器上也能良好运行。但是不论怎么说，**请注意这个整合包专门用于游玩服务器**，作者没有对单人世界或联机游戏做任何测试，尽管理论上可以正常游玩这些，部分功能可能需要你自己手动加模组（比如创世神和联机模组等）。
 
@@ -30,7 +31,7 @@ TooBee 服专用整合包，不是进服必须的，但推荐使用。请通过 
 
 大部分模组的核心功能请自己摸索，可以去B站和MCMOD上找找有关教程。事实上模组的官方文档永远是最好的教程 :)
 
-### 关于优化
+### 关于优化 {#optimization}
 
 作者是在一台使用了 NVIDIA RTX3050 显卡和 Intel 13700H 处理器的 ThinkBook 16 笔记本上测试的，操作系统为 Arch Linux、桌面为 KDE，并基于 Wayland 启动MC，内存设为10G。因此以下所有内容仅代表在我的机子上的情况，我尚不清楚在其它地方比如Windows系统上的表现，你可以告诉我，之后补充到此文档中。
 
@@ -42,20 +43,25 @@ TooBee 服专用整合包，不是进服必须的，但推荐使用。请通过 
 
 另外游戏内UI缩放大小不一定适合你，请自行在 *视频设置* 界面内调整。
 
-## 两个版本模组差异表
+## :warning: HMCL 启动器用户注意事项 {#HMCL}
 
-### Vulkan版独有模组
+使用 [HMCL](https://hmcl.huangyuhui.net) 启动器的用户需注意：由于 issue [#3696](https://github.com/HMCL-dev/HMCL/issues/3696)，即 HMCL 暂时无法正确处理 Modrinth 整合包中的可选资源，所有提供的可选模组都会被自动下载。你需要参照相应版本的可选模组列表（[OpenGL](opengl#optional_mods) 或 [Vulkan](vulkan#optional_mods)），手动剔除不需要的模组，并在游戏版本设置中取消选择*检查资源完整性*。如果你选择直接加载所有的可选模组，请自行承担启动时所需的额外时间以及潜在的bug。HMCL 开发者声称计划在 2025 年 6 月发布的 3.6.13 版解决该问题。
+
+## 两个版本模组差异表 {#version_difference}
+
+### Vulkan版独有模组 {#vulkan_only_mods}
 - Journey Map
 - Vulkan Mod
 - Bobby (可选)
 
-### OpenGL版独有的模组
+### OpenGL版独有的模组 {#opengl_only_mods}
 - Better Clouds (可选)
 - Cube With Borders
 - Fabrishot
 - First Person (可选)
 - Immediately Fast
 - Iris
+- Nvidium
 - Reese Sodium Options
 - Sodium
 - Sodium Extra
@@ -66,11 +72,10 @@ TooBee 服专用整合包，不是进服必须的，但推荐使用。请通过 
 - WayFix (可选)
 
 **注：**
-1. 目前 Vulkan 的内测版已经兼容 Continiuty，等之后正式再更新看看吧。
-2. Bobby 作为 Distant Horizon 的替代，Journey Map 作为 Xaero Map 的替代。
-3. First Person 能和 Vulkan 放在一起运行，但是第一人称视角会被头部遮住导致没法正常用。
+1. Bobby 作为 Distant Horizon 的替代，Journey Map 作为 Xaero Map 的替代。
+2. First Person 能和 Vulkan 放在一起运行，但是第一人称视角会被头部遮住导致没法正常用。
 
-## 补充模组
+## 补充模组 {#supplementary_mods}
 
 ### 其它一些可以考虑的模组
 这些模组没有预装到整合包里，感兴趣的请自行去MCMOD和Modrinth上搜索。
@@ -86,12 +91,16 @@ TooBee 服专用整合包，不是进服必须的，但推荐使用。请通过 
 - *Inventory Hud+* 类似Durability Viewer，另外一直还能显示背包。我觉得显示背包有点挡视线而且这个模组闭源，就没加了。
 
 ### 很不错但尚未更新至1.21.4的模组
-- *Enhanced Block Entities* 方块实体渲染优化，不过貌似不支持Vulkan
-- *Nvidium* 针对 NVIDIA 显卡的优化，同样不支持Vulkan
-- *Isometric Render* 等轴渲染，能够生成很多有用的渲染图，
-- *Interactive* 添加了更多与丢弃的物品进行交互的方式，并添加了物品渲染。我曾试图手动更新，但意外的发现作者提供的源代码似乎不完整(?)，它引入了一个不存在的类，困惑……
 - *Custom Block Highlight* 自定义方块轮廓高亮。不会写客户端模组，我手动更新失败了QAQ
 
-## 致谢
+## 致谢 {#thanks}
 - nvbie 为整合包做的测试
 - techxun 为Masa系列模组做了部分配置
+
+## 关于制作 {#fabrication}
+
+这里简述作者如何制作和更新整合包的，这是一个比较复杂的流程，如果你有兴趣可以阅读。
+
+事实上所有的模组和资源在早期基本都已经选好了，刚开始经历了一个痛苦、复杂而漫长的遴选和测试过程，并花了一整天手动填写完了 `modrinth.index.json` 的所有内容。现在我和 Anom 编写了专门的[自动化脚本](https://github.com/TooBee-Team/Client-Modpacker)来辅助完成一部分更新工作：
+
+借助 Modrinth API 根据之前的 `modrinth.index.json` 自动抓取并重新生成一个新的文件，并检查一些项目的代码仓库或 Discord，看看开发者有无什么新的动向，对于非 Modrinth 资源也可使用这个脚本通过 URL 下载链接自动提取信息。然后把这份文件重新合并至之前的整合包内，将这份整合包导入进客户端加载并不断调试。接着借助 [KDiff3](https://apps.kde.org/kdiff3) 工具对比客户端加载过后的配置文件，检查每一条差异，将有效的变动文件合并进之前的整合包内。然后更新文档，更各种元信息。以上这些步骤要对 OpenGL 和 Vulkan 分别做两次，最后发布至 Modrinth 并记录 Changelog。
