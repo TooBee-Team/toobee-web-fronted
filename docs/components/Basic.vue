@@ -112,12 +112,12 @@ import { wsMan } from './HomePage';
 const DECODER = new TextDecoder('utf-8');
 
 class BasicInfo {
-  mspt: number[];
-  ram: number[];
+  mspt: string[];
+  ram: Int16Array;
   entities: number;
   chunks: number;
-  inb: number;
-  oub: number;
+  inb: string;
+  oub: string;
   index = 0;
 
   constructor(data: object) {
@@ -167,7 +167,7 @@ export default {
       if (this.basicTime < time) {
         this.basicTime = time;
         const c = {};
-        c.mspt10 = new Int16Array(10);
+        c.mspt10 = new Array(10);
         for (let i = 0; i < 10; ++i)
           c.mspt10[i] = data.getInt16(i << 1);
         c.ram = new Int16Array(10);
