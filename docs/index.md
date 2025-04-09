@@ -1,7 +1,6 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-lastUpdated: 2025-01-31T01:12:49+08:00
 
 hero:
   name: "好人服・诺金 (TooBee)"
@@ -16,7 +15,7 @@ hero:
       link: /docs/
     - theme: alt
       text: 监控面板
-      link: http://players.2ob.top:45713/server/TooBee/overview
+      link: http://toobee.top:8804/server/TooBee
     - theme: alt
       text: 客户端整合包
       link: https://modrinth.com/modpack/toobee-client
@@ -37,7 +36,7 @@ features:
 ---
 
 <script setup>
-import BasicData from './components/BasicData.vue'
+import Basic from './components/Basic.vue'
 
 import { VPTeamMembers } from 'vitepress/theme'
 
@@ -95,7 +94,7 @@ const members = [
 ]
 </script>
 
-<BasicData />
+<Basic />
 
 <h2 style="text-align:center; line-height:2.0; font-size:250%;"><b>运 维 团 队</b></h2>
 
