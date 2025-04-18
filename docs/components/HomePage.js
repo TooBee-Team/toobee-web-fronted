@@ -58,8 +58,8 @@ class WebSocketManager {
   setUrl(location) {
     const fullUrl = new URL(this.relativePath, location.origin);
     fullUrl.protocol = fullUrl.protocol === 'https:' ? 'wss:' : 'ws:';
-    //this.url = fullUrl.href;
-    this.url = 'ws://localhost:8080/home'
+    this.url = fullUrl.href;
+    //this.url = 'ws://localhost:8080/home'
     this.relativePath = null;
   }
 }
