@@ -90,7 +90,7 @@ export default defineConfig({
     },
     
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Fungus-00/toobee-web' },
+      { icon: 'github', link: 'https://github.com/Fungus-00/toobee-web-fronted' },
       { icon: 'discord', link: 'https://discord.gg/YcJVpVKe8q' }
     ],
 

@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "好人服・诺金 (TooBee)"
-  text: "MC 1.21.4 纯生存服\nIP地址:  2ob.top"
+  text: "MC 1.21.5 纯生存服\nIP地址:  2ob.top"
   tagline: "支持Java版与基岩版客户端，无需正版验证\n有白名单，QQ群:  786296062"
   image:
     src: /background.webp
@@ -13,6 +13,9 @@ hero:
     - theme: brand
       text: 基本信息
       link: /docs/
+    - theme: alt
+      text: 监控面板
+      link: http://show.toobee.top
     - theme: alt
       text: 监控面板
       link: http://toobee.top:8804/server/TooBee

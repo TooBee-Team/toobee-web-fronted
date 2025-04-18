@@ -204,12 +204,13 @@ export default {
         this.cache = null;
         this.mark = this.Mark.ONLINE;
         this.tick = 0;
-      } else if (t === 16 && this.mark === this.mark.ONLINE) {
+      } else if (t > 16 && (this.mark === this.Mark.ONLINE || this.mark === this.Mark.OFFLINE)) {
         this.mark = this.Mark.LOADING;
         this.basic = null;
         wsMan.sendMessage(0, this.basicTime);
       } else if (t > 100 && this.mark !== this.Mark.TIMEOUT) {
         this.mark = this.Mark.TIMEOUT;
+        this.basic = this.cache = this.players = null;
         this.clear();
       }
     }
