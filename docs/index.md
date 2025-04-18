@@ -14,8 +14,8 @@ hero:
       text: 基本信息
       link: /docs/
     - theme: alt
-      text: 监控面板
-      link: http://show.toobee.top
+      text: 望舒仙岛
+      link: http://49.232.199.108
     - theme: alt
       text: 监控面板
       link: http://toobee.top:8804/server/TooBee
