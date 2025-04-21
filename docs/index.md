@@ -14,7 +14,7 @@ hero:
       text: 基本信息
       link: /docs/
     - theme: alt
-      text: 望舒仙岛
+      text: 舒望仙岛
       link: http://49.232.199.108
     - theme: alt
       text: 监控面板
