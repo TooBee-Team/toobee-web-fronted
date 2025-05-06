@@ -43,7 +43,7 @@ export default defineConfig({
   themeConfig: {
     logo: { src: '/toobee.svg', width: 24, height: 24 },
     nav: [
-      { text: '卫星地图', link: '/map/' },
+      { text: '望舒仙岛', link: 'https://sunna.icu' },
       { text: '服务器文档', link: '/docs/' },
       { text: '更新日志与活动信息', link: '/changelogs/' },
     ],

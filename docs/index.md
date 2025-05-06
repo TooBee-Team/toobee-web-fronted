@@ -14,11 +14,11 @@ hero:
       text: 基本信息
       link: /docs/
     - theme: alt
-      text: 舒望仙岛
-      link: http://49.232.199.108
+      text: 卫星地图
+      link: https://toobee.top/map/
     - theme: alt
       text: 监控面板
-      link: http://toobee.top:8804/server/TooBee
+      link: https://toobee.top:59527/server/default
     - theme: alt
       text: 客户端整合包
       link: https://modrinth.com/modpack/toobee-client

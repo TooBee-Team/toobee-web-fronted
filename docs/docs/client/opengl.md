@@ -4,8 +4,12 @@ outline: deep
 
 # OpenGL 版补充说明
 
-当前版本：1.21.4
-子版本: 3
+当前版本：1.21.5
+子版本: 1
+
+::: :warning: 临时注
+由于当前版本部分模组尚未更新至1.21.5，后文中用~~删除线~~标注的内容表示某些模组因尚未及时更新版本而导致相应的功能暂时无法使用，而未来如果其更新将会移除删除线。
+:::
 
 ## 快捷键 {#shortcuts}
 
@@ -41,8 +45,8 @@ outline: deep
 - 右Alt : 爬行 [FSit]
 - 右Ctrl : 坐下 [FSit]
 - 右Shift : 生物头上都显示血量 [Health Indicators]
-- ' : (需可选模组) 打开等轴渲染选区 [Isometric Render]
-- 左Shift + ' : (需可选模组) 关闭等轴渲染选区 [Isometric Render]
+~~- ' : (需可选模组) 打开等轴渲染选区 [Isometric Render]~~
+~~- 左Shift + ' : (需可选模组) 关闭等轴渲染选区 [Isometric Render]~~
 
 ### 长按类
 按下这些按键时生效，松开后恢复。
