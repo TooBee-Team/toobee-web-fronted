@@ -76,7 +76,7 @@ export default defineConfig({
           items: [
             { text: '整合包通用信息', link: '/docs/client/modpack'},
             { text: 'OpenGL 版补充说明', link: '/docs/client/opengl'},
-            { text: 'Vulkan 版补充说明', link: '/docs/client/vulkan'}
+//            { text: 'Vulkan 版补充说明', link: '/docs/client/vulkan'}
           ]
         },
       ],

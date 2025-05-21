@@ -21,7 +21,9 @@ TooBee 服专用整合包，不是进服必须的，但推荐有一定经验的�
 
 **如果你不关心这么多，选择O版。**
 
-::: :warning: 临时注
+安装可选模组时，如果你不清楚也不关心这些模组是干什么的，请取消选择所有可选模组。
+
+::: warning :warning: 临时注
 由于当前版本 Vulkan 模组尚未更新至1.21.5，故暂无 Vulkan 版而只有 Opengl 版。后文中用~~删除线~~标注的内容因包括 Vulkan 在内的某些模组因尚未及时更新版本而导致相应的功能暂时无法使用，而未来如果其更新将会移除删除线。
 :::
 
@@ -49,7 +51,7 @@ TooBee 服专用整合包，不是进服必须的，但推荐有一定经验的�
 
 ## :warning: HMCL 启动器用户注意事项 {#HMCL}
 
-使用 [HMCL](https://hmcl.huangyuhui.net) 启动器的用户需注意：由于 issue [#3696](https://github.com/HMCL-dev/HMCL/issues/3696)，即 HMCL 暂时无法正确处理 Modrinth 整合包中的可选资源，所有提供的可选模组都会被自动下载。你需要参照相应版本的可选模组列表（[OpenGL](opengl#optional_mods) 或 [Vulkan](vulkan#optional_mods)），手动剔除不需要的模组，并在游戏版本设置中取消选择*检查资源完整性*。如果你选择直接加载所有的可选模组，请自行承担启动时所需的额外时间以及潜在的bug。HMCL 开发者声称计划在 2025 年 6 月发布的 3.6.13 版解决该问题。
+使用 [HMCL](https://hmcl.huangyuhui.net) 启动器的用户需注意：由于 issue [#3696](https://github.com/HMCL-dev/HMCL/issues/3696)，即 HMCL 暂时无法正确处理 Modrinth 整合包中的可选资源，所有提供的可选模组都会被自动下载。你需要参照相应版本的可选模组列表（[OpenGL](opengl#optional_mods)，手动剔除不需要的模组，并在游戏版本设置中取消选择*检查资源完整性*。如果你选择直接加载所有的可选模组，请自行承担启动时所需的额外时间以及潜在的bug。HMCL 开发者声称计划在 2025 年 7 月发布的 3.6.13 版解决该问题。
 
 ## 两个版本模组差异表 {#version_difference}
 
