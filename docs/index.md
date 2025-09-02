@@ -40,7 +40,6 @@ features:
 
 <script setup>
 import Basic from './components/Basic.vue'
-import Login from './components/Login.vue'
 
 import { VPTeamMembers } from 'vitepress/theme'
 
@@ -99,8 +98,6 @@ const members = [
 </script>
 
 <Basic />
-
-<Login />
 
 <h2 style="text-align:center; line-height:2.0; font-size:250%;"><b>运 维 团 队</b></h2>
 
