@@ -45,8 +45,9 @@ next: false
 - `/create` 切换到创造服
 - `/plstyle switch default|animated` 切换列表样式（default为默认样式，animated稍微花哨一点），仅Java版可用
 - `/run` 执行[脚本命令](./script)，详见有关章节
-- `/show_seq` 展示主手物品的序列号和发行日期，仅限于某些通过抽奖、活动或进度获取的不可堆叠的特殊物品。
+- `/show_seq` 展示主手物品的序列号和发行日期，仅限于某些通过抽奖、活动或进度获取的不可堆叠的特殊物品
 - `/sit` 原地坐下，按潜伏键站起来
+- `/invsort sort|sortme` 自动整理光标指向的容器/自己的背包
 - `/trans <旧玩家名>` 申请将旧账号的所有数据全部转移至当前账号
 - `/trigger query` 查询自己的抽奖数据
 

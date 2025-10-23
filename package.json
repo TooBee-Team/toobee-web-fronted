@@ -2,7 +2,7 @@
   "devDependencies": {
     "vite-plugin-vuetify": "^2.1.2",
     "vitepress": "^1.6.4",
-    "vuetify": "^3.9.5"
+    "vuetify": "^3.10.7"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
-    "axios": "^1.11.0"
+    "axios": "^1.12.2"
   }
 }

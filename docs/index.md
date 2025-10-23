@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "好人服・诺金 (TooBee)"
-  text: "MC 1.21.8 纯生存服\nIP地址:  2ob.top"
+  text: "MC 1.21.10 纯生存服\nIP地址:  2ob.top"
   tagline: "支持Java版与基岩版客户端，无需正版验证\n有白名单，QQ群:  786296062"
   image:
     src: /background.webp
@@ -20,7 +20,7 @@ hero:
       text: 监控面板
       link: https://toobee.top:59527/server/default
     - theme: alt
-      text: 客户端整合包
+      text: 客户端整合包（尚未更新）
       link: https://modrinth.com/modpack/toobee-client
 
 features:
@@ -29,7 +29,7 @@ features:
     details: 服务端核心为 Fabric，所有特性均遵循原版，完美支持生电
   - title: 高性能
     icon: ⚡
-    details: 服务器使用 AMD Ryzen 7 9700X CPU，且做了大量针对性优化，性能卓越
+    details: 服务器使用 Intel i9-14900K CPU，且做了大量针对性优化，性能卓越
   - title: 维护活跃
     icon: 🛠️
     details: 服主是专业的模组开发者，维护服务器十分活跃，积极响应玩家诉求
