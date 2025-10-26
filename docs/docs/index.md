@@ -40,9 +40,9 @@ next:
 
 首次进入服务器后需要在聊天框输入 `/register <密码> <再次输入密码>` 注册本账号，然后输入 `/l <注册的密码>` 登录。之后进入只需登录。如有疑问，详见[登录的命令帮助](commands/easyauth.md)。输入 `/h` 查看本服命令帮助。你需要耐心等待管理员给你添加白名单，可以先在大厅里逛逛。获取白名单后输入 `/lobby` 进入生存区，再次输入回到大厅。
 
-~~服主准备了专门适配服务器的官方客户端整合包，这不是必需的，且不建议小白使用，推荐有一定游戏经验的人使用。请从 [Modrinth 下载](https://modrinth.com/modpack/toobee-client)。一般建议选择最新的OpenGL版，下载后使用主流启动器导入，安装后请先阅读整合包内的 `README.md` 文件。由于客户端整合包更新时的复杂性，其版本相比于服务器游戏版本更新时会慢几天（大约一周的延迟），期间你可以暂不更新游戏版本，服务端支持小范围跨版本（但体验不好），或者临时使用流行的 (Fabulously Optimized)[https://modrinth.com/modpack/fabulously-optimized] 性能优化整合包（但缺少额外功能）。~~
+~~服主准备了专门适配服务器的官方客户端整合包，这不是必需的，且不建议小白使用，推荐有一定游戏经验的人使用。请从 [Modrinth 下载](https://modrinth.com/modpack/toobee-client)。一般建议选择最新的OpenGL版，下载后使用主流启动器导入，安装后请先阅读整合包内的 `README.md` 文件。由于客户端整合包更新时的复杂性，其版本相比于服务器游戏版本更新时会慢几天（大约一周的延迟），期间你可以暂不更新游戏版本，服务端支持小范围跨版本（但体验不好），或者临时使用流行的 [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized) 性能优化整合包（但缺少额外功能）。~~
 
-最新版本的客户端整合包目前尚未制作，如有需要建议使用流行的 (Fabulously Optimized)[https://modrinth.com/modpack/fabulously-optimized]（无额外功能）或 (Arcomua Cloth)[https://modrinth.com/modpack/arcomua]（辅助功能丰富）或 (XPlus 2.0) [https://modrinth.com/modpack/xplus-2.0-modpack-global]（老牌辅助整合包）。
+最新版本的客户端整合包目前尚未制作，如有需要建议使用流行的 [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized)（无额外功能）或 [Arcomua Cloth](https://modrinth.com/modpack/arcomua)（辅助功能丰富）或 [XPlus 2.0] (https://modrinth.com/modpack/xplus-2.0-modpack-global)（老牌辅助整合包）。
 
 服务器边界为xz坐标为±20000格的正方形，主世界±10000以外的区域、没怎么加载的区块和末地±1500以外的区域在每次版本更新后都会被清空。不要将家或机器盖在地下，除非你能保证地表有明显的标志物。因为服务器会定期清理区块，服主会删除那些地表明显没有活动痕迹的区块。
 

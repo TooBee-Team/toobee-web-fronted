@@ -35,8 +35,6 @@
 
 - 玩家亲手杀死[监守者](https://zh.minecraft.wiki/w/%E7%9B%91%E5%AE%88%E8%80%85)后额外掉落一个[回响碎片](https://zh.minecraft.wiki/w/%E5%9B%9E%E5%93%8D%E7%A2%8E%E7%89%87)，这使得[追溯指针](https://zh.minecraft.wiki/w/%E8%BF%BD%E6%BA%AF%E6%8C%87%E9%92%88)可再生。
 - 增加了[深板岩圆石](https://zh.minecraft.wiki/w/%E6%B7%B1%E6%9D%BF%E5%B2%A9%E5%9C%86%E7%9F%B3)的配方，从而可再生。![深板岩圆石配方](/cobbled_deepslate.png)
-- 对空气右键潜影盒可以凭空打开潜影盒。
-- 在背包中光标选中潜影盒后，可以实现和收纳袋同样的在容器界面内收入和取出物品的功能。
 - 双击背包或容器界面中的的空槽位可以进行容器自动整理。
 
 ## 优化特性 
