@@ -72,11 +72,12 @@ export default defineConfig({
           ]
         },
         {
-          text: '客户端',
+          text: '技术性',
           items: [
-            { text: '整合包通用信息', link: '/docs/client/modpack'},
-            { text: 'OpenGL 版补充说明', link: '/docs/client/opengl'},
-//            { text: 'Vulkan 版补充说明', link: '/docs/client/vulkan'}
+            { text: '整合包通用信息', link: '/docs/technical/modpack'},
+            { text: 'OpenGL 版补充说明', link: '/docs/technical/opengl'},
+            { text: '服务器信息', link: '/docs/technical/info' },
+            { text: '无法进服排查方案', link: '/docs/technical/unjoinable' },
           ]
         },
       ],

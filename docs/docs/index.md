@@ -42,7 +42,7 @@ next:
 
 ~~服主准备了专门适配服务器的官方客户端整合包，这不是必需的，且不建议小白使用，推荐有一定游戏经验的人使用。请从 [Modrinth 下载](https://modrinth.com/modpack/toobee-client)。一般建议选择最新的OpenGL版，下载后使用主流启动器导入，安装后请先阅读整合包内的 `README.md` 文件。由于客户端整合包更新时的复杂性，其版本相比于服务器游戏版本更新时会慢几天（大约一周的延迟），期间你可以暂不更新游戏版本，服务端支持小范围跨版本（但体验不好），或者临时使用流行的 [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized) 性能优化整合包（但缺少额外功能）。~~
 
-最新版本的客户端整合包目前尚未制作，如有需要建议使用流行的 [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized)（无额外功能）或 [Arcomua Cloth](https://modrinth.com/modpack/arcomua)（辅助功能丰富）或 [XPlus 2.0] (https://modrinth.com/modpack/xplus-2.0-modpack-global)（老牌辅助整合包）。
+最新版本的客户端整合包目前尚未制作，如有需要建议使用流行的 [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized)（无额外功能）或 [Arcomua Cloth](https://modrinth.com/modpack/arcomua)（辅助功能丰富）或 [XPlus 2.0](https://modrinth.com/modpack/xplus-2.0-modpack-global)（老牌辅助整合包）。
 
 服务器边界为xz坐标为±20000格的正方形，主世界±10000以外的区域、没怎么加载的区块和末地±1500以外的区域在每次版本更新后都会被清空。不要将家或机器盖在地下，除非你能保证地表有明显的标志物。因为服务器会定期清理区块，服主会删除那些地表明显没有活动痕迹的区块。
 
@@ -53,11 +53,9 @@ next:
 - **服务端版本:** 1.21.10 Fabric
 - **IP地址:** `2ob.top:25565` (Java版), `2ob.top:19132` (基岩版)
 - **最低支持Java游戏客户端版本** 1.21.4
-- **推荐基岩版客户端版本** 1.21.114.1 [(此处下载)](https://mcapks.net/)
+- **推荐基岩版客户端版本** 1.21.120 [(此处下载)](https://mcapks.net/)
 - **服务器位置:** 广东深圳
-- **CPU:** Intel i9-14900K (8核)
-- **服务端内存:** 16 GiB
-- **运行系统:** Linux Debian 13
+- **CPU 型号:** Intel i9-14900K
 
 ::: warning :warning: 注意
 服务器可能会遭受恶意DDOS攻击，尽管我们没有招惹任何人。在这种情况下以上地址可能暂时无法使用，我们会切换到临时地址。请加群关注消息或通过可能的联系方式联系服主获得临时地址。
