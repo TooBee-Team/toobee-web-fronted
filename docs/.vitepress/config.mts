@@ -68,7 +68,8 @@ export default defineConfig({
             { text: '索引', link: '/docs/commands/index'},
             { text: '玩家操控', link: '/docs/commands/player'},
             { text: '登录', link: '/docs/commands/easyauth'},
-            { text: '命令脚本', link: '/docs/commands/script'}
+            { text: '命令脚本', link: '/docs/commands/script'},
+            { text: '玩家轨迹查询', link: '/docs/commands/tracker'}
           ]
         },
         {

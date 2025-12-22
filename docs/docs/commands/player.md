@@ -6,7 +6,7 @@ next: false
 
 # 玩家操控
 
-这类命令以 `/player` 开头，用来操控玩家。这个功能来源于 Carpet 模组，本文参考了[官方文档相应章节](https://github.com/gnembon/fabric-carpet/wiki/Commands#player)与模组源代码。
+这类命令以 `/player` 开头，用来操控虚拟玩家。这个功能来源于 Carpet 模组，本文参考了[官方文档相应章节](https://github.com/gnembon/fabric-carpet/wiki/Commands#player)与模组源代码。
 
 普通玩家可以用命令操控服里所有的假人（本服假人的名字是青色的）以及自己，服务器OP（本服只有服主有）可以操控所有玩家。
 
