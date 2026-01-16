@@ -72,11 +72,11 @@
 
 - [AppleSkin](https://modrinth.com/mod/appleskin) 支持额外显示饱和度
 - [Carpet](https://modrinth.com/mod/carpet) 对客户端额外支持情况未知
-- [FSit](modrinth.com/mod/fsit) 支持更方便的坐下行为，详见模组文档
+- [FSit](https://modrinth.com/mod/fsit) 支持更方便的坐下行为，详见模组文档
 - [Inventory Sorting](https://modrinth.com/mod/inventory-sorting) 服务器自动整理背包
 - [Jade](https://modrinth.com/mod/jade) 支持额外显示方块实体的详细信息，比如容器内容
 - [Just Enough Items](https://modrinth.com/mod/jei) 支持自动解锁服务端配方
 - [Masa Gadget](https://modrinth.com/mod/masa-gadget) 支持显示容器信息（服务端由 [PCA Protocol](https://modrinth.com/mod/pca-protocol) 实现）
 - [No Chat Reports](https://modrinth.com/mod/no-chat-reports) 与客户端的签名验证功能对接
-- [MiniHud](https://modrinth.com/mod/minihud) 呢狗狗显示更详细的结构信息（服务端由 [Servux](https://modrinth.com/mod/servux) 实现）
+- [MiniHud](https://modrinth.com/mod/minihud) 能够显示更详细的结构信息（服务端由 [Servux](https://modrinth.com/mod/servux) 实现）
 - [Searchables](https://modrinth.com/mod/searchables) 服务器能高效自动搜索附近的箱子（服务端由 [Where Is It](https://modrinth.com/mod/where-is-it-port) 实现）
