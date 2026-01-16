@@ -12,7 +12,7 @@ next:
 
 **<p style="color:green;">进服后需要拿到白名单才能在生存区游玩，你可以通过以下任意方式获取白名单</p>**
 
-- **推荐** 加入QQ群 *786296062*，将群名改为游戏名并通知管理员
+- **推荐** 加入QQ群 *456271391*，将群名改为游戏名并通知管理员
 - 添加服主微信 *jkfungus*，服主把你拉进群里然后把群名改为游戏名
 - 加入[*Discord服务器*](https://discord.gg/YcJVpVKe8q)
 - 加入[*Telegram群聊*](https://t.me/mc2ob)
@@ -39,8 +39,6 @@ next:
 :::
 
 首次进入服务器后需要在聊天框输入 `/register <密码> <再次输入密码>` 注册本账号，然后输入 `/l <注册的密码>` 登录。之后进入只需登录。如有疑问，详见[登录的命令帮助](commands/easyauth.md)。输入 `/h` 查看本服命令帮助。你需要耐心等待管理员给你添加白名单，可以先在大厅里逛逛。获取白名单后输入 `/lobby` 进入生存区，再次输入回到大厅。
-
-~~服主准备了专门适配服务器的官方客户端整合包，这不是必需的，且不建议小白使用，推荐有一定游戏经验的人使用。请从 [Modrinth 下载](https://modrinth.com/modpack/toobee-client)。一般建议选择最新的OpenGL版，下载后使用主流启动器导入，安装后请先阅读整合包内的 `README.md` 文件。由于客户端整合包更新时的复杂性，其版本相比于服务器游戏版本更新时会慢几天（大约一周的延迟），期间你可以暂不更新游戏版本，服务端支持小范围跨版本（但体验不好），或者临时使用流行的 [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized) 性能优化整合包（但缺少额外功能）。~~
 
 最新版本的客户端整合包目前尚未制作，如有需要建议使用流行的 [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized)（无额外功能）或 [Arcomua Cloth](https://modrinth.com/modpack/arcomua)（辅助功能丰富）或 [XPlus 2.0](https://modrinth.com/modpack/xplus-2.0-modpack-global)（老牌辅助整合包）。
 

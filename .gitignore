@@ -45,3 +45,5 @@ coverage/
 
 # Yarn integrity file
 .yarn-integrity
+
+srcipt.sh

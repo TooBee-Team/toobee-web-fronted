@@ -6,7 +6,7 @@
       <li>CPU 核心数：{{ i.cpu_cores }}</li>
       <li>系统：{{ i.os_name }} {{ i.os_version }}</li>
       <li>Java 版本：{{ i.java_version }} {{ i.java_vendor }}</li>  
-      <li>Java 堆内存上限：{{ i.max_memory }}</li>
+      <li>Java 堆内存上限：{{ (i.max_memory / (1024*1024*1024)).toFixed(2) }} GB</li>
       <li>Fabric Loader 版本：{{ i.loader_version }}</li>
       <li>游戏版本：{{ i.game_version }}</li>
       <li>开启时间：{{ formatDateTime(new Date(i.uptime)) }}</li>

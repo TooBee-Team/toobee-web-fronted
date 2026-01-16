@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "好人服・诺金 (TooBee)"
   text: "MC 1.21.11 纯生存服\nIP地址:  2ob.top"
-  tagline: "支持Java版与基岩版客户端，无需正版验证\n有白名单，QQ群:  786296062"
+  tagline: "支持Java版与基岩版客户端，无需正版验证\n有白名单，QQ群:  456271391"
   image:
     src: /background.webp
     alt: TooBee 大厅
@@ -99,6 +99,6 @@ const members = [
 
 <Basic />
 
-<h2 style="text-align:center; line-height:2.0; font-size:250%;"><b>运 维 团 队</b></h2>
+<!-- <h2 style="text-align:center; line-height:2.0; font-size:250%;"><b>运 维 团 队</b></h2>
 
-<VPTeamMembers size="medium" :members="members" />
+<VPTeamMembers size="medium" :members="members" /> -->
