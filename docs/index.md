@@ -19,9 +19,6 @@ hero:
     - theme: alt
       text: 监控面板
       link: https://toobee.top:59527/server/default
-    - theme: alt
-      text: 客户端整合包（尚未更新）
-      link: https://modrinth.com/modpack/toobee-client
 
 features:
   - title: 生电

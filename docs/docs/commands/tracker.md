@@ -69,6 +69,10 @@
 
 记录的结束时间。格式同上。默认为空。
 
+### `stay` 最小停留时长 {#arg:stay}
+
+单位：秒。只显示停留时长大于等于这个秒数的记录，用于关注玩家长时间停留的区域。格式为大于等于0的整数，默认为0。
+
 ### `page` 页数 {#arg:page}
 
 指定查询记录的页数。格式为int类型正整数。默认1。
@@ -85,12 +89,12 @@
 
 显示一定范围内（默认当前维度、当前坐标、半径16）和时间段（默认无限制）各玩家的活动坐标、起始记录时间、停留时长。按时间降序。
 
-可选参数：range, pos, dim, players, after, before, page, size
+可选参数：range, pos, dim, players, after, before, stay, page, size
 
 **示例**
 - `tk details`
 - `tk details range 30`
-- `tk details dim minecraft:overworld pos 3 -5 2 range 30 profile after "2025-12-23T12:34:56.789" before -1d5h page 3 size 20`
+- `tk details dim minecraft:overworld pos 3 -5 2 stay 10 range 30 after "2025-12-23T12:34:56.789" before -1d5h page 3 size 20`
 - `tk details players Steve pos ~ ~10 ~ players Alex`
 
 ### `visit` 查询范围内访问记录 {#cmd:visit}
@@ -108,7 +112,7 @@
 
 显示指定玩家（默认自己）的位置轨迹记录。按时间降序。
 
-可选参数：profile, after, before, page, size
+可选参数：profile, after, before, stay, page, size
 
 **示例**
 - `tk player`
