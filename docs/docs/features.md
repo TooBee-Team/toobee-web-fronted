@@ -12,7 +12,7 @@
 - 下界方形边长: 10000
 - 渲染距离: 12
 - 模拟距离: 10
-- 普通玩家可以使用假人
+- 普通玩家可以使用假人，右键打开背包
 - 超过40%的玩家入睡时可跳过夜晚\
 *此处有效玩家数量中将不计入假人和挂机的玩家*
 
@@ -36,6 +36,10 @@
 - 玩家亲手杀死[监守者](https://zh.minecraft.wiki/w/%E7%9B%91%E5%AE%88%E8%80%85)后额外掉落一个[回响碎片](https://zh.minecraft.wiki/w/%E5%9B%9E%E5%93%8D%E7%A2%8E%E7%89%87)，这使得[追溯指针](https://zh.minecraft.wiki/w/%E8%BF%BD%E6%BA%AF%E6%8C%87%E9%92%88)可再生。
 - 增加了[深板岩圆石](https://zh.minecraft.wiki/w/%E6%B7%B1%E6%9D%BF%E5%B2%A9%E5%9C%86%E7%9F%B3)的配方，从而可再生。![深板岩圆石配方](/cobbled_deepslate.png)
 - 双击背包或容器界面中的的空槽位可以进行容器自动整理。
+- 仙人掌扳手：使用仙人掌右键带有方向的方块可以旋转其方向。（来源于 Carpet 模组）
+- 快捷潜影盒：手持普通潜影盒，对空气右键，可以打开该潜影盒的GUI存取物品。（来源于 Quick Shulker Multi 模组）
+- 面朝地面，连击两次潜伏键可以原地坐下。
+- 个别抽奖的奖品可能可以用铁砧或砂轮组合，具体哪些能组合，规则较复杂，有兴趣自行探索。
 
 ## 优化特性 
 
@@ -68,11 +72,11 @@
 
 ## 客户端模组支持
 
-服务器对以下客户端模组有特别的额外支持：
+服务器对以下客户端模组有特别的额外支持，具体详见模组介绍与其文档：
 
 - [AppleSkin](https://modrinth.com/mod/appleskin) 支持额外显示饱和度
 - [Carpet](https://modrinth.com/mod/carpet) 对客户端额外支持情况未知
-- [FSit](https://modrinth.com/mod/fsit) 支持更方便的坐下行为，详见模组文档
+- [FSit](https://modrinth.com/mod/fsit-continued) 支持坐在玩家头上
 - [Inventory Sorting](https://modrinth.com/mod/inventory-sorting) 服务器自动整理背包
 - [Jade](https://modrinth.com/mod/jade) 支持额外显示方块实体的详细信息，比如容器内容
 - [Just Enough Items](https://modrinth.com/mod/jei) 支持自动解锁服务端配方
@@ -80,3 +84,4 @@
 - [No Chat Reports](https://modrinth.com/mod/no-chat-reports) 与客户端的签名验证功能对接
 - [MiniHud](https://modrinth.com/mod/minihud) 能够显示更详细的结构信息（服务端由 [Servux](https://modrinth.com/mod/servux) 实现）
 - [Searchables](https://modrinth.com/mod/searchables) 服务器能高效自动搜索附近的箱子（服务端由 [Where Is It](https://modrinth.com/mod/where-is-it-port) 实现）
+- [Status](https://modrinth.com/mod/status) 展示自己或查看其他玩家的状态

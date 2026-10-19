@@ -42,6 +42,7 @@ next: false
 ## 其它命令
 - `/bots` 列出可用假人列表
 - `/crawl` 匍匐爬行，按潜伏键站起来
+- `/lay` 原地躺下，按潜伏键站起来
 - `/create` 切换到创造服
 - `/plstyle switch default|animated` 切换列表样式（default为默认样式，animated稍微花哨一点），仅Java版可用
 - `/run` 执行[脚本命令](script)，详见有关章节
