@@ -48,10 +48,10 @@ TooBee 创立于2023年6月13日，是一个纯公益的高版本 Minecraft Java
 
 ## 服务器信息 {#server-info}
 
-- **服务端版本:** 26.1.2 Fabric
+- **服务端版本:** 26.2 Fabric
 - **IP地址:** `2ob.top:25565` (Java版), `2ob.top:19132` (基岩版)
 - **最低支持Java游戏客户端版本** 1.21.9
-- **推荐基岩版客户端版本** 26.13.1 [(此处下载)](https://mcapks.net/)
+- **推荐基岩版客户端版本** 26.33.1 [(此处下载)](https://mcapks.net/)
 - **服务器位置:** 广东深圳
 - **CPU 型号:** Intel Ultra 7 270K Plus
 

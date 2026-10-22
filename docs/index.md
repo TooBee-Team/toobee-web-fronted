@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "TooBee"
-  text: "MC 26.1.2 纯生存服\nIP地址:  2ob.top"
+  text: "MC 26.2 纯生存服\nIP地址:  2ob.top"
   tagline: "支持Java版与基岩版客户端，无需正版验证\n有白名单，QQ群:  456271391"
   image:
     src: /background.webp
@@ -15,10 +15,10 @@ hero:
       link: /docs/
     - theme: alt
       text: 卫星地图
-      link: https://toobee.top/map/
+      link: https://map.toobee.top
     - theme: alt
       text: 监控面板
-      link: https://toobee.top:59527/server/default
+      link: https://plan.toobee.top
 
 features:
   - title: 生电
